@@ -1,0 +1,45 @@
+.InputStory {
+  font-family: Outfit;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 90%;
+  margin: 0 auto;
+  /*background-color: #1FB79B;*/
+  align-items: start;
+
+}
+.InputStory-input {
+  font-family: Outfit;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #1FB79B;
+  border-radius: 14px;
+  height: 2rem;
+  font-size: 16px;
+  padding: 25px 15px 25px 15px;
+}
+.InputStory-textarea {
+  font-family: Outfit;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #1FB79B;
+  font-size: 16px;
+  padding: 20px 15px 20px 15px;
+  border-radius: 14px;
+  resize: none;
+}
+
+textarea {
+  width: auto;
+  margin-bottom: 1rem;
+}
+.InputStory-info {
+  margin-bottom: 1rem;
+}
+

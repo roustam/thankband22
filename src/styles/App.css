@@ -1,0 +1,329 @@
+@media screen and (min-width: 375px) and (max-width: 479px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin:0;
+    padding:0;
+  }
+
+  header {
+    display: flex;
+    width: 90%;
+    margin: 3rem auto 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Outfit;
+  }
+
+  header div.App-hamburger {
+    z-index: 10;
+  }
+
+  section {
+    font-family: Outfit;
+    font-size: 18px;
+    line-height: 24px;
+    color: #636C68;
+    padding-top: 2rem;
+  }
+
+  section > a {
+    color:#1FB79B;
+  }
+  .App-header-block {
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .App-btn {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 13px 130px;
+    background-color: #1FB79B;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .App-header-block h2{
+    font-font: Outfit;
+    color: #140C07;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .App-infoBlock {
+    font-family: Outfit;
+  }
+  .App-infoBlock h3 {
+    letter-spacing: -1px;
+    color: #140C07;
+    font-size: 40px;
+    font-weight: bold;
+
+  }
+  .App-header-block-desc {
+    color: #636C68;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .ThankYouPage-desc,
+  .App-infoBlock-desc {
+    color: #636C68;
+    width: 85%;
+    margin: 1rem auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .App-codeForm {
+    font-family: Outfit;
+    color: #140C07;
+  }
+
+  .App-codeForm h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .App-codeForm input {
+    font-size: 1.5rem;
+    width: 56px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: center;
+  }
+
+  .App-codeForm input:not(:last-of-type) {
+    margin-right: 1rem;
+  }
+  .App-codeForm-desc {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .App-codeForm-footer {
+    color: #636C68;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top:1rem;
+    margin-bottom: 2rem;
+  }
+
+  .App-footer {
+    font-family: Outfit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .App-footer img {
+    width: 224px;
+    height: auto;
+    margin: 4rem auto 0.5rem auto;
+  }
+
+  .App-footer-desc {
+    color: #1FB79B;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 40px;
+  }
+  .App-footer-copyright {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #636C68;
+  }
+  .SignInContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .GoodDeeds-container .TopImg,
+  .ThankYouPage .TopImg,
+  .ShareYourStory .TopImg,
+  .SignInContainer .TopImg,
+  .GetStartedContainer > .TopImg  {
+    margin: 2rem auto 0 auto;
+    width: 189px;
+    height: auto;
+  }
+  .SignInContainer-btn {
+    margin: 1.8rem auto 0 auto;
+  }
+  .App-SignIn-desc {
+    color: #333333;
+  }
+  .GetStartedContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Outfit;
+  }
+  .LoginButton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #181818;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    border: 1px solid #1FB79B;
+    box-sizing: border-box;
+    border-radius: 14px;
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    align-self: center;
+  }
+  .LoginButton span {
+    margin: auto 0.5rem;
+  }
+  .LoginButton:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .PlainLink {
+    color: #181818;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .ShareYourStory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .ShareYourStory h2 {
+    font-family: Outfit;
+    text-align: center;
+    font-size: 40px;
+  }
+  .ThankYouPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Outfit;
+    text-align: center;
+  }
+  .ThankYouPage h2 {
+    font-size: 40px;
+    color: #140C07;
+    margin-bottom:0;
+
+  }
+  .ThankYouPage h3 {
+    font-size: 25px;
+    width: 90%;
+    color: #140C07;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .GoodDeeds {
+    font-family: Outfit;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #1FB79B;
+  }
+  .GoodDeeds-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+  }
+  .GoodDeeds-container .HeaderText {
+    font-size: 40px;
+  }
+  .GoodDeeds-container .GoodDeeds-desc {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 24px;
+    font-size: 1.1rem;
+  }
+  .GoodDeeds-Link {
+    font-size: 1rem;
+    margin: 0 auto;
+    color: #fff;
+    width: 90%;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 14px;
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .QRCodePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .QRCodePage-CodeImg {
+
+    width: 55%;
+    height: auto;
+    margin:5rem auto 5rem auto;
+  }
+
+}
+
+div.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+/*@media (prefers-reduced-motion: no-preference) {*/
+/*  .App-logo {*/
+/*    animation: App-logo-spin infinite 20s linear;*/
+/*  }*/
+/*}*/
+
+/*.App-header {*/
+/*  background-color: #282c34;*/
+/*  min-height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  font-size: calc(10px + 2vmin);*/
+/*  color: white;*/
+/*}*/
+
+/*.App-link {*/
+/*  color: #61dafb;*/
+/*}*/
+
+/*@keyframes App-logo-spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
