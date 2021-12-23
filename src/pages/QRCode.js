@@ -9,7 +9,7 @@ function QRCodePage() {
   const focation = window.location.origin + '/sharestory'
 
   const [src, setSrc ] = useState("")
-  useEffect(()=>QRCode.toDataURL(focation).then((setSrc)))
+  useEffect(()=>QRCode.toDataURL(focation).then((setSrc)), focation)
   return(
     <div className="QRCodePage">
       <PageHeader />
