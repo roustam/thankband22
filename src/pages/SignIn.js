@@ -1,6 +1,5 @@
 import PageHeader from "../components/PageHeader";
 import WomanOnBikeImg from '../images/bike-image.svg';
-import InfoBlock from "../components/InfoBlock";
 import InputSignIn from "../components/InputSingIn";
 import '../styles/App.css'
 import {Link} from "react-router-dom";

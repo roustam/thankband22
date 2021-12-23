@@ -1,11 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { render } from "react-dom";
 import {
   BrowserRouter,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import App from './pages/IndexPage';
 import AboutPage from '../src/pages/aboutPage'

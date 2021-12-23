@@ -5,8 +5,6 @@ import InfoBlock from "../components/InfoBlock";
 import PageHeader from "../components/PageHeader";
 import PageFooter from "../components/PageFooter";
 import { Link } from "react-router-dom";
-import NavBar from "../components/NavBar";
-import styles from '../styles/App.css'
 import CodeForm from "../components/CodeForm";
 
 function App() {

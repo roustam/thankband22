@@ -1,7 +1,7 @@
 import '../styles/InputSignIn.css'
 
 const InputSignIn= (props) => {
-  if (props.password && props.password == true) {
+  if (props.password && props.password === true) {
     return (
     <input className='InputSignIn' type="password" placeholder={props.placeholder}/>)
   } else {
