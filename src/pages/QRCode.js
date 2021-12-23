@@ -1,5 +1,4 @@
 import {useEffect, useState } from "react";
-import {useLocation} from "react-router-dom";
 import QRCode from 'qrcode'
 
 import PageHeader from "../components/PageHeader";
@@ -9,7 +8,7 @@ function QRCodePage() {
   const focation = window.location.origin + '/sharestory'
 
   const [src, setSrc ] = useState("")
-  useEffect(()=>QRCode.toDataURL(focation).then((setSrc)), [])
+  useEffect(()=>QRCode.toDataURL(focation).then((setSrc)), [focation])
   return(
     <div className="QRCodePage">
       <PageHeader />
