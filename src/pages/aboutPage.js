@@ -1,8 +1,13 @@
+import PageHeader from "../components/PageHeader";
+import PageFooter from "../components/PageFooter";
+
 export default function AboutPage() {
   return (
-    <main style={{ padding: "1rem 0" }}>
-      <h2>Something cool</h2>
-      about
-    </main>
+    <div className='AboutPage'>
+      <PageHeader/>
+        <h2>About </h2>
+        test
+      <PageFooter />
+    </div>
   );
 }

@@ -25,16 +25,19 @@ function NavBar(props) {
             <Link to='/signup'>Sign up</Link>
           </li>
           <li className='navbar-toggle'>
-            <Link to='/signin'>About</Link>
+            <Link to='/about'>About</Link>
           </li>
           <li className='navbar-toggle'>
-            <Link to='/signin'>Contributors</Link>
+            <Link to='/contributors'>Contributors</Link>
           </li>
           <li className='navbar-toggle'>
             <Link to='/getstarted'>Get Started</Link>
           </li>
           <li className='navbar-toggle'>
             <Link to='/QRCode'>QR Code</Link>
+          </li>
+          <li className='navbar-toggle'>
+            <Link to='/QRCode'>Got a code?  </Link>
           </li>
         </ul>
       </nav>

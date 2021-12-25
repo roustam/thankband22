@@ -284,6 +284,23 @@
     height: auto;
     margin:5rem auto 5rem auto;
   }
+  .ReceiveGive {
+    text-align: center;
+    font-family: Outfit;
+  }
+  .ReceiveGive header {
+    margin-bottom: 2rem;
+  }
+  .ReceiveGive .Continue-btn {
+    display: flex;
+    padding: 13px 130px;
+    margin: 1rem ;
+    text-decoration: none;
+    font-size: 16px;
+    color:#fff;
+    background-color: #1FB79B;
+    border-radius: 20px;
+  }
 
 }
 
