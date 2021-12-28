@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 const Header = props => {
   return(
     <header>
-      <img src={ThankbandLogoImg} />
+      <img className="HeaderTopImg" src={ThankbandLogoImg} />
       <NavBar />
       {props.IndexPageInfoBlock && (
       <div className='App-header-block'>

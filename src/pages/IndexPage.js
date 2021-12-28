@@ -11,15 +11,15 @@ function App() {
   return (
     <div className='App'>
       <PageHeader IndexPageInfoBlock={true}/>
-      <Link to='#' className="App-btn">Sign in</Link>
+      <Link to='/signin' className="App-btn">Sign in</Link>
 
-      <section>
+      <section className='App-Section'>
         <div>Your QRCode is your gateway to begin your Journey.</div>
         <Link to='' className="App-link">Have a wristband?</Link>
         <InfoBlock
                    header='Scan my band.'
                    text='I have a QR code, Connect by open up your camera and scan the QR code to start your jounrey.'/>
-        <Link to='#' className="App-btn">Connect</Link>
+        <Link to='signup' className="App-btn">Connect</Link>
         <InfoBlock imgsrc={WomanOnBikeImg}
                      header='Join the story.'
                      text='Share your story of the ThankBand journey and access

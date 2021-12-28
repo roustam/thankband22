@@ -1,4 +1,31 @@
-@media screen and (min-width: 375px) and (max-width: 725px) {
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto 1.5rem auto;
+  width: 40%;
+}
+.App-link {
+  font-family: Outfit;
+  color: #1FB79B;
+  text-decoration: none;
+
+}
+
+.App-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.App-footer img {
+  width: 230px;
+  margin: 1.5rem auto;
+}
+
+@media screen and (min-width: 375px) and (max-width: 428px) {
   body {
     display: flex;
     flex-direction: column;
@@ -6,17 +33,21 @@
     background-color: white;
     margin:0;
     padding:0;
+    font-family: Outfit;
   }
 
   header {
     display: flex;
-    width: 90%;
+    width: 85%;
     margin: 3rem auto 0 auto;
     justify-content: space-between;
     flex-wrap: wrap;
     font-family: Outfit;
   }
 
+  .HeaderTopImg:first-of-type {
+    margin-right: 1rem;
+  }
   header div.App-hamburger {
     z-index: 10;
   }
@@ -304,6 +335,19 @@
 
 }
 
+body {
+  font-family: Outfit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.HeaderTopImg:first-of-type {
+  margin-right: auto;
+}
+
 div.App {
   text-align: center;
 }
@@ -313,8 +357,51 @@ div.App {
   pointer-events: none;
 }
 
+.App-btn {
+  font-family: Outfit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 13px 130px;
+  background-color: #1FB79B;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+}
 
+.App-Section {
+  margin-top: 1.5rem;
+}
 
+.App-infoBlock-desc {
+
+  margin: 0 auto 1.5rem auto;
+  max-width: 400px;
+}
+
+.App-codeForm {
+  font-family: Outfit;
+  color: #140C07;
+  margin-bottom: 1.5rem;
+}
+
+.App-codeForm-footer {
+  margin-bottom: 1.5rem;
+}
+
+.App-codeForm input {
+  font-size: 1.5rem;
+  width: 56px;
+  height: 56px;
+  background: #FFFFFF;
+  border: 1px solid #ECECEC;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.App-codeForm input:not(:last-of-type) {
+  margin-right: 1rem;
+}
 /*@media (prefers-reduced-motion: no-preference) {*/
 /*  .App-logo {*/
 /*    animation: App-logo-spin infinite 20s linear;*/
