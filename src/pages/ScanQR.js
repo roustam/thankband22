@@ -27,6 +27,8 @@ class ScanQRPage extends Component {
             onScan={this.handleScan}
             style={{ width: '100%' }}
           />
+        <p>QR Code contains:</p>
+        <p>{this.state.result}</p>
         <PageFooter />
       </div>
     )
