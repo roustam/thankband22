@@ -16,6 +16,7 @@ import ThankYou from "./pages/ThankYou";
 import GoodDeeds from "./pages/Gooddeeds"
 import QRCode from "./pages/QRCode";
 import ReceiveGive from './pages/ReceiveGive'
+import ScanQRPage from './pages/ScanQR'
 render (
     <BrowserRouter>
       <Routes>
@@ -29,6 +30,7 @@ render (
         <Route path="/gooddeeds" element={<GoodDeeds />} />
         <Route path="/QRCode" element={<QRCode />} />
         <Route path='/ReceiveGive' element={<ReceiveGive />} />
+        <Route path="/scanqr" element={<ScanQRPage />} />
       </Routes>
     </BrowserRouter>,
 

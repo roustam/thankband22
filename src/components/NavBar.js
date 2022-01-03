@@ -39,6 +39,9 @@ function NavBar(props) {
           <li className='navbar-toggle'>
             <Link to='/QRCode'>Got a code?  </Link>
           </li>
+          <li className="navbar-toggle">
+            <Link to="/scanqr">Scan your QRCode</Link>
+          </li>
         </ul>
       </nav>
     </>
