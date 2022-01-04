@@ -1,39 +1,47 @@
 import React, { Component } from 'react'
+import { useNavigate } from 'react-router-dom'
 import QrReader from 'react-qr-reader'
 import PageHeader from "../components/PageHeader";
 import PageFooter from "../components/PageFooter";
 
-class ScanQRPage extends Component {
-  state = {
+function RedirectToStory(data) {
+
+//  history.push(data)
+}
+
+function ScanQRPage() {
+  let state = {
     result: 'No result'
   }
-  handleScan = data => {
+  let navigate = useNavigate()
+  const handleScan = data => {
+
     if (data && data.slice(0,4) === 'http') {
       this.setState({
         result: data
       })
-      this.props.history.push(data)
+      navigate(data) //redirecting to story page
     }
   }
-  handleError = err => {
+  const handleError = err => {
     console.error(err)
   }
-  render() {
+
     return (
       <div className="QRCodeReader">
         <PageHeader />
           <QrReader
             delay={300}
-            onError={this.handleError}
-            onScan={this.handleScan}
+            onError={handleError}
+            onScan={handleScan}
             style={{ width: '100%' }}
           />
         <p>QR Code contains:</p>
-        <p>{this.state.result}</p>
+        <p>{state.result}</p>
         <PageFooter />
       </div>
     )
-  }
+
 }
 
 export default ScanQRPage
