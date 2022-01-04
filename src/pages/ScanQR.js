@@ -8,10 +8,11 @@ class ScanQRPage extends Component {
     result: 'No result'
   }
   handleScan = data => {
-    if (data) {
+    if (data && data.slice(0,3) === 'http') {
       this.setState({
         result: data
       })
+      this.props.history.push(data)
     }
   }
   handleError = err => {
