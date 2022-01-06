@@ -1,16 +1,18 @@
 import React, { Component } from 'react'
 import QrReader from 'react-qr-reader'
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const QRReaderComponent = () => {
 
   let navigate = useNavigate()
-  const handleScan = (data) => {
-    console.log('data -> ', data)
-    if (data) {
-      console.log('data -> ', data)
-      navigate(data)
-    }
+    const handleScan = (data) => {
+      if (data) {
+        console.log('data -> ', data)
+        navigate(data)
+      }
+  }
+  const errorScan = () => {
+    console.log('error')
   }
   return(
     <div>
@@ -18,6 +20,7 @@ const QRReaderComponent = () => {
         delay={300}
         //onError={this.handleError}
         onScan={handleScan}
+        onError={errorScan}
         style={{ width: '100%' }}
       />
     </div>

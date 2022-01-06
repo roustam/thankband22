@@ -5,9 +5,11 @@ import PageHeader from "../components/PageHeader";
 import PageFooter from "../components/PageFooter";
 function QRCodePage() {
 
-  const focation = window.location.origin + '/sharestory'
+  const focation = '/sharestory'
+  console.log('url address ', focation)
 
   const [src, setSrc ] = useState("")
+
   useEffect(()=>QRCode.toDataURL(focation).then((setSrc)), [focation])
   return(
     <div className="QRCodePage">
